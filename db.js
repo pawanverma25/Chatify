@@ -10,5 +10,4 @@ async function connectionToDB(cb) {
 	db = client.db("chatify");
 	cb();
 }
-
 export { db, connectionToDB };
