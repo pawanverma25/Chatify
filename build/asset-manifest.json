@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b7bcc32b.css",
+    "main.js": "/static/js/main.24d18512.js",
+    "static/media/chats1.webp": "/static/media/chats1.1a7d1cf1bcdf4c401ed7.webp",
+    "static/media/chats2.webp": "/static/media/chats2.bc576c52d4ebda5f0b00.webp",
+    "static/media/verification.webp": "/static/media/verification.552be9363ba914769d10.webp",
+    "static/media/notfound.webp": "/static/media/notfound.81f67be6cd7ffff47089.webp",
+    "static/media/login.webp": "/static/media/login.4c2f1610877528338b5b.webp",
+    "static/media/letschat.webp": "/static/media/letschat.ca35a14f7fffd0f9c6a9.webp",
+    "static/media/2.webp": "/static/media/2.b1ca198b368d83dd4722.webp",
+    "static/media/notification_sound.mp3": "/static/media/notification_sound.c49234c946031ffbe8f2.mp3",
+    "static/media/3.webp": "/static/media/3.4ac9cec3eb3c4e5c1416.webp",
+    "static/media/1.webp": "/static/media/1.bbd14bebece6e9e5963f.webp",
+    "static/media/logo.webp": "/static/media/logo.14ae174633110447107b.webp",
+    "index.html": "/index.html",
+    "main.b7bcc32b.css.map": "/static/css/main.b7bcc32b.css.map",
+    "main.24d18512.js.map": "/static/js/main.24d18512.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7bcc32b.css",
+    "static/js/main.24d18512.js"
+  ]
+}
