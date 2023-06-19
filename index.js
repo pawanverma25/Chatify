@@ -235,6 +235,10 @@ app.put("/api/startchat/", async (req, res) => {
 	res.end();
 });
 
+app.get("*", (req, res) => {
+	res.sendFile(path.join(__dirname + "/build/index.html"));
+});
+
 app.set("port", process.env.PORT || 8000);
 
 connectionToDB(() => {
