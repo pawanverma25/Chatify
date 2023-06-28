@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.1c13a4ae.css",
-    "main.js": "/static/js/main.5073aa3c.js",
+    "main.css": "/static/css/main.3e76dce1.css",
+    "main.js": "/static/js/main.0f0a6cb6.js",
     "static/media/chats1.webp": "/static/media/chats1.ecfa90c82d8a60b145dc.webp",
     "static/media/chats2.webp": "/static/media/chats2.cfd0008fadec8fade8af.webp",
     "static/media/verification.webp": "/static/media/verification.552be9363ba914769d10.webp",
     "static/media/notfound.webp": "/static/media/notfound.81f67be6cd7ffff47089.webp",
-    "static/media/login.webp": "/static/media/login.4c2f1610877528338b5b.webp",
+    "static/media/login.webp": "/static/media/login.9f8fd6736a5fe0133986.webp",
     "static/media/letschat.webp": "/static/media/letschat.ca35a14f7fffd0f9c6a9.webp",
     "static/media/2.webp": "/static/media/2.b1ca198b368d83dd4722.webp",
     "static/media/notification_sound.mp3": "/static/media/notification_sound.c49234c946031ffbe8f2.mp3",
@@ -14,11 +14,11 @@
     "static/media/1.webp": "/static/media/1.bbd14bebece6e9e5963f.webp",
     "static/media/logo.webp": "/static/media/logo.14ae174633110447107b.webp",
     "index.html": "/index.html",
-    "main.1c13a4ae.css.map": "/static/css/main.1c13a4ae.css.map",
-    "main.5073aa3c.js.map": "/static/js/main.5073aa3c.js.map"
+    "main.3e76dce1.css.map": "/static/css/main.3e76dce1.css.map",
+    "main.0f0a6cb6.js.map": "/static/js/main.0f0a6cb6.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c13a4ae.css",
-    "static/js/main.5073aa3c.js"
+    "static/css/main.3e76dce1.css",
+    "static/js/main.0f0a6cb6.js"
   ]
 }
