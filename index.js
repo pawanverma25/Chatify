@@ -31,7 +31,8 @@ const credentials = {
 	client_id: process.env.FIREBASE_CLIENT_ID,
 	auth_uri: process.env.FIREBASE_AUTH_URI,
 	token_uri: process.env.FIREBASE_TOKEN_URI,
-	auth_provider_x509_cert_url: process.env.FIREBASE_AUTH_PROVIDER_X509_CERT_URL,
+	auth_provider_x509_cert_url:
+		process.env.FIREBASE_AUTH_PROVIDER_X509_CERT_URL,
 	client_x509_cert_url: process.env.FIREBASE_CLIENT_X509_CERT_URL,
 	universe_domain: process.env.FIREBASE_UNIVERSE_DOMAIN,
 };
@@ -63,8 +64,12 @@ io.on("connection", (socket) => {
 		socket
 			.to(message.chat_id)
 			.emit("chat-cleared", [dateUpdateMessage, message]);
-		await db.collection("messages").deleteMany({ chat_id: message.chat_id });
-		await db.collection("messages").insertMany([dateUpdateMessage, message]);
+		await db
+			.collection("messages")
+			.deleteMany({ chat_id: message.chat_id });
+		await db
+			.collection("messages")
+			.insertMany([dateUpdateMessage, message]);
 	});
 
 	socket.on("disconnect", () => {
@@ -244,7 +249,6 @@ app.set("port", process.env.PORT || 8000);
 connectionToDB(() => {
 	console.log("successfully connected to databases");
 	httpServer.listen(app.get("port"), function () {
-		var port = httpServer.address().port;
-		console.log("Running on : ", port);
+		console.log("Running on : ", httpServer.address().port);
 	});
 });
